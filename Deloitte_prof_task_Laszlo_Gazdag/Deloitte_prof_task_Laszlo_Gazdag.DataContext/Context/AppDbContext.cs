@@ -24,6 +24,10 @@ namespace Deloitte_prof_task_Laszlo_Gazdag.DataContext.Context
             modelBuilder.Entity<OrderItem>()
                 .Property(o => o.UnitPrice)
                 .HasPrecision(18, 2);
+            modelBuilder.Entity<OrderItem>()
+                .HasOne(x => x.Product)
+                .WithMany()
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
