@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Deloitte_prof_task_Laszlo_Gazdag.DataContext\Deloitte_prof_task_Laszlo_Gazdag.DataContext.csproj" />
+  </ItemGroup>
+
 </Project>

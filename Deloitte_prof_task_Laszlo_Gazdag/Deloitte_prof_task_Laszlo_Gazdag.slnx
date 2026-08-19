@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Deloitte_prof_task_Laszlo_Gazdag.DataContext/Deloitte_prof_task_Laszlo_Gazdag.DataContext.csproj" />
+  <Project Path="Deloitte_prof_task_Laszlo_Gazdag.Services/Deloitte_prof_task_Laszlo_Gazdag.Services.csproj" />
   <Project Path="Deloitte_prof_task_Laszlo_Gazdag/Deloitte_prof_task_Laszlo_Gazdag.csproj" />
 </Solution>
