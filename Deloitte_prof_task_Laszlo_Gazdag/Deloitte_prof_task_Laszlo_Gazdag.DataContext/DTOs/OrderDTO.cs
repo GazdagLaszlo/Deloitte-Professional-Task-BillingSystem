@@ -9,14 +9,22 @@ namespace Deloitte_prof_task_Laszlo_Gazdag.DataContext.DTOs
     {
         public int Id { get; set; }
         public DateTime OrderDate { get; set; }
-        public int CustomerId { get; set; }        
-        public decimal TotalAmount { get; set; }
+        public int CustomerId { get; set; }
+        public decimal TotalAmount { get; set; }        
     }
 
     public class OrderCreateDTO
     {        
-        public int CustomerId { get; set; }
-        public DateTime OrderDate { get; set; }
+        public int CustomerId { get; set; }        
         public List<OrderItemCreateDTO> OrderItems { get; set; } = new List<OrderItemCreateDTO>();
+    }
+
+    public class OrderDetailedDTO
+    {
+        public int Id { get; set; }
+        public DateTime OrderDate { get; set; }
+        public int CustomerId { get; set; }
+        public decimal TotalAmount { get; set; }
+        public ICollection<OrderItemDTO> OrderItems { get; set; } = new List<OrderItemDTO>();
     }
 }

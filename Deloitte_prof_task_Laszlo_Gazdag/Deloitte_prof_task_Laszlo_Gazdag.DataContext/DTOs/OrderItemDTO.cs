@@ -17,8 +17,7 @@ namespace Deloitte_prof_task_Laszlo_Gazdag.DataContext.DTOs
 
     public class OrderItemCreateDTO
     {        
-        public int Quantity { get; set; }
-        public decimal UnitPrice { get; set; }        
+        public int Quantity { get; set; }          
         public int ProductId { get; set; }        
     }
 }
