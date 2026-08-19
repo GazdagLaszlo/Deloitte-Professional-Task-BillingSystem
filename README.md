@@ -6,7 +6,7 @@ A projekt a feladatkiírásnak megfelelően nyitott végű problémákra is saj�
 
 ## Alkalmazott technológiák
 
-*   **.NET (C#)**
+*   **ASP.NET Core Web API (C#)**
 *   **Entity Framework Core**
 *   **MS SQL Server**
 *   **AutoMapper**
