@@ -1,0 +1,6 @@
+@Deloitte_prof_task_Laszlo_Gazdag_HostAddress = http://localhost:5082
+
+GET {{Deloitte_prof_task_Laszlo_Gazdag_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
